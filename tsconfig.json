@@ -6,6 +6,11 @@
     },
     {
       "path": "./tsconfig.app.json"
-    }
-  ]
+    },
+
+  ],
+  "compilerOptions": {
+    "types": ["@types/wicg-file-system-access", "./src/types/song.d.ts"],
+
+  }
 }
